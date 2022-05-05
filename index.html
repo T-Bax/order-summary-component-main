@@ -16,30 +16,39 @@
 <body>
   <main class="order_summary">
     <img id="hero_image" src="images/illustration-hero.svg", alt="Hero Image - Dancing Person">
-    <h1>Order Summary</h1>
-    <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
-      device anywhere you like!
-    </p>
-      <div class="order_summary_details">
-        <table>
-          <tr>
-            <td rowspan="2"><img src="images/icon-music.svg", alt="Music Icon"></td>
-            <th>Annual Plan</th>
-            <td rowspan="2"><a href=#>Change</a></td>
-          </tr>
-          <tr>
-            <td>$59.99/year</td>
-          </tr>
-          
-        </table>
-      </div>
-      
+    <div class="order_summary_detail_container">
+      <h1>Order Summary</h1>
+      <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
+        device anywhere you like!
+      </p>
+        <div class="order_summary_details">
 
-      
+          <ul>
+            <li><img src="images/icon-music.svg", alt="Music Icon"></li>
+            <li><table >
+              <tr>
+                <th>Annual Plan</th>
+              </tr>
+              <tr>
+                <td>$59.99/year</td>
+              </tr>
+            </table></li>
+            <li style="float:right"><a href=#>Change</a></li>
+          </ul>
+          
+          
+          
+
+
+        </div>
+ 
     <ul>
       <li><button id="proceed">Proceed to Payment</button></li>
-      <li>Cancel Order</li>
+      <li><a href=#>Cancel Order</a></li>
     </ul>
+
+    </div>
+    
     
     
   </main>
