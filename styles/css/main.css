@@ -33,11 +33,13 @@ body {
   position: relative;
   box-sizing: border-box;
   margin: 20px;
+  margin-bottom: 30px;
 }
 .order_summary h1 {
   font-size: x-large;
   font-weight: 900;
   text-align: center;
+  color: var(--clr-neutral-darkblue);
 }
 .order_summary p {
   padding: 5px;
@@ -57,6 +59,9 @@ body {
   font-size: small;
   font-weight: 900;
   color: var(--clr-neutral-desaturatedblue);
+}
+.order_summary a:hover {
+  color: var(--clr-neutral-darkblue);
 }
 .order_summary .order_summary_details {
   box-sizing: border-box;
@@ -86,6 +91,10 @@ body {
   color: var(--clr-primary-brightblue);
   text-decoration: underline;
 }
+.order_summary .order_summary_details li a:hover {
+  text-decoration: none;
+  color: #766cea;
+}
 .order_summary .order_summary_details li img {
   display: block;
   text-align: center;
@@ -105,6 +114,10 @@ body {
 .order_summary .order_summary_details td {
   color: var(--clr-neutral-desaturatedblue);
 }
+.order_summary .order_summary_details th {
+  font-weight: 900;
+  color: var(--clr-neutral-darkblue);
+}
 .order_summary button#proceed {
   background-color: var(--clr-primary-brightblue);
   color: white;
@@ -115,8 +128,12 @@ body {
   height: 3rem;
   margin-bottom: 1rem;
   font-size: smaller;
-  font-weight: 700;
+  font-weight: 900;
   box-shadow: 0px 15px 40px rgba(71, 68, 68, 0.5);
+}
+.order_summary button#proceed:hover {
+  background-color: #766cea;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=main.css.map */
